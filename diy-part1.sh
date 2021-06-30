@@ -13,8 +13,7 @@
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-#解决target名称变化造成k3screenctrl无法选中编译问题
-sed 's/phicomm-k3/phicomm_k3/' package/lean/k3screenctrl/Makefile
+
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
